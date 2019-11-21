@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data><program SECTOR_SIZE_IN_BYTES="4096" file_sector_offset="0" filename="BL.bin" label="unlock" num_partition_sectors="1" partofsingleimage="false" physical_partition_number="0" readbackverify="false" size_in_KB="4" sparse="false" start_byte_hex="0x2219000" start_sector="8729"/></data>

@@ -2,9 +2,11 @@
 
 [TOC]
 
+**注意**: 本教程理论上也适用于其他魅族型号,如 16th, 16th Plus, 16S Pro 等, 但是本教程提供的`prog_firehose_ddr.elf` 文件是魅族 16S 的, 因此如果您使用其他机型, 您需要去找到对应机型中的线刷包, 提取出相应的 `prog_firehose_ddr.elf` 替换.
+
 ## 引言
 
-由于解锁商人价格太贵, 并且是一次性解锁, 因此我之前一直没有解锁, 直到 3 天前, 在某社交网站看到有转发的魅族16系列解锁的帖子,只需要捐赠5美元 (现在是 50CNY )，就可以获得解锁文件， 因此我马上就捐赠了5美元，然后也很快收到了解锁文件，解锁之后就有了这篇教程。
+由于解锁商人价格太贵, 并且是一次性解锁, 因此我之前一直没有解锁, 直到 3 天前, 在某社交网站看到有转发的魅族16系列解锁的帖子,只需要捐赠5美元 (现在是 50CNY )，就可以获得解锁文件， 因此我马上就捐赠了5美元，然后也很快收到了解锁文件，解锁之后就有了这篇教程。本教程基于 Windows 系统， 如果您使用 Linux 或者 Mac OS X, 您可以按照这个思路找您需要的文件。
 
 
 
@@ -22,15 +24,14 @@
 
 ### 刷入TWRP教程
 
-解锁后就可以刷入 TWRP 了。感谢**魅族16S交流群** 提供的**魅族 16s 降级教程** 使用 [@wzsx150](https://weibo.com/u/6033736159) 制作的最新的MEIZU 16S 的 [TWRP](https://pan.baidu.com/s/1As7Qo92pheuwEZTARUMCeQ),  提取码: 2333 
+解锁后就可以刷入 TWRP 了。感谢**魅族16S交流群** 提供的**魅族 16s 降级教程** 使用 [@wzsx150](https://weibo.com/u/6033736159) 制作的最新的MEIZU 16S 的 [TWRP](https://pan.baidu.com/s/1As7Qo92pheuwEZTARUMCeQ),  提取码: 2333 ,想要获取最新的 TWRP 可以关注作者的微博.
 
 **注意**：第一次进入TWRP可能会触屏无法使用，请准备OTG鼠标！！！
 
 下面提供**两种刷入 TWRP 的方式**， 
 
-* 一是直接刷入，
+* 一是直接刷入，手机重启进入 `FASTBOOT` 模式， 连上电脑，将 `1. Start Here.cmd` 复制到 `platform-tools` 文件夹，双击 `1. Start Here.cmd`, 然后输入
 
-  手机重启进入 `FASTBOOT` 模式， 连上电脑，打开 `CMD` 或者 `Powershell` 输入（如果你将 Android 工具箱加入了系统路径， 可以在任意地方打开命令行， 如果没有， 请在 `Platform-tools` 的文件夹下打开）
 
 ```
 fastboot flash recovery $YourPath/YourRecovery.img
@@ -84,5 +85,9 @@ fastboot oem lock
 * [**魅族 16s 降级教程**](https://pan.baidu.com/s/1Ar3xfJurnU8oQDfs4kD-KA)
 * [魅族16s解锁Bootloader](https://www.coolapk.com/feed/14942258?shareKey=ZGNhNThhZTM5Mzk2NWRkMzYyMDA~&shareUid=453578&shareFrom=com.coolapk.market_9.6.3)
 
+## 写在最后
 
+欢迎各位解锁的小伙伴分享你为了上 `Flyme 8` 所做的尝试或是其他在解锁过程中发现的有用的经验, 我会总结出来放到结论里面.
+
+下面是网络要饭环节：如果您喜欢我所作的工作, 可以考虑捐赠我, 我的支付宝账号是 975853527@qq.com. 您的任何捐赠都会使我的情况变得更好.
 
