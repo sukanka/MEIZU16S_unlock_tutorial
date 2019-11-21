@@ -1,0 +1,179 @@
+
+17:07:13: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+fh_loader.exe --port=\\.\COM4 --reset --noprompt 
+************************************************
+
+17:07:13: DEBUG: Binary build date: Nov 21 2017 @ 02:53:33
+
+17:07:13: DEBUG: Build Version: 17.11.21.02.53.33
+
+17:07:13: INFO: Current working dir (cwd): C:\Users\suhan\Downloads\MZLOCK.zipMZLOCK_2\
+17:07:13: INFO: Showing network mappings to allow debugging
+17:07:13: DEBUG: 会记录新的网络连接。
+
+17:07:13: DEBUG: 
+
+17:07:13: DEBUG: 列表是空的。
+
+17:07:13: DEBUG: 
+
+17:07:13: INFO: User wants to talk to port '\\.\COM4'
+17:07:13: DEBUG: port_fd=0xDC
+
+17:07:13: INFO: Took       0.00000000 seconds to open port
+17:07:13: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+17:07:13: INFO: If  you don't want this, use --dontsorttags
+
+17:07:13: INFO: Sending <configure>
+17:07:13: DEBUG: CHANNEL DATA (P0000) (H00202) (    228 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<configure MemoryName="eMMC" Verbose="0" AlwaysValidate="0" MaxDigestTableSizeInBytes="8192" MaxPayloadSizeToTargetInBytes="1048576" ZlpAwareHost="1" SkipStorageInit="0" />
+</data>
+
+============================================================================================================
+
+17:07:13: DEBUG: CharsInBuffer=0 Trying to read from USB 8192 bytes
+17:07:13: DEBUG: CHANNEL DATA (491 bytes) <-- TARGET to HOST
+17:07:13: DEBUG: CharsInBuffer = 491
+17:07:13: DEBUG: printBuffer:5435 PRETTYPRINT Buffer is 491 bytes
+
+17:07:13: DEBUG: printBuffer:5512 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+17:07:13: DEBUG: printBuffer:5512 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+17:07:13: DEBUG: printBuffer:5512 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+17:07:13: DEBUG: printBuffer:5512 6C 6F 67 20 76 61 6C 75 65 3D 22 49 4E 46 4F 3A log value="INFO:
+17:07:13: DEBUG: printBuffer:5512 20 43 61 6C 6C 69 6E 67 20 68 61 6E 64 6C 65 72  Calling handler
+17:07:13: DEBUG: printBuffer:5512 20 66 6F 72 20 63 6F 6E 66 69 67 75 72 65 22 20  for configure" 
+17:07:13: DEBUG: printBuffer:5512 2F 3E 3C 2F 64 61 74 61 3E 3C 3F 78 6D 6C 20 76 /></data><?xml v
+17:07:13: DEBUG: printBuffer:5512 65 72 73 69 6F 6E 3D 22 31 2E 30 22 20 65 6E 63 ersion="1.0" enc
+17:07:13: DEBUG: printBuffer:5512 6F 64 69 6E 67 3D 22 55 54 46 2D 38 22 20 3F 3E oding="UTF-8" ?>
+17:07:13: DEBUG: printBuffer:5512 0A 3C 64 61 74 61 3E 0A 3C 6C 6F 67 20 76 61 6C .<data>.<log val
+17:07:13: DEBUG: printBuffer:5512 75 65 3D 22 49 4E 46 4F 3A 20 53 74 6F 72 61 67 ue="INFO: Storag
+17:07:13: DEBUG: printBuffer:5512 65 20 74 79 70 65 20 73 65 74 20 74 6F 20 76 61 e type set to va
+17:07:13: DEBUG: printBuffer:5512 6C 75 65 20 65 4D 4D 43 22 20 2F 3E 3C 2F 64 61 lue eMMC" /></da
+17:07:13: DEBUG: printBuffer:5512 74 61 3E 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E ta><?xml version
+17:07:13: DEBUG: printBuffer:5512 3D 22 31 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D ="1.0" encoding=
+17:07:13: DEBUG: printBuffer:5512 22 55 54 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 "UTF-8" ?>.<data
+17:07:13: DEBUG: printBuffer:5512 3E 0A 3C 72 65 73 70 6F 6E 73 65 20 76 61 6C 75 >.<response valu
+17:07:13: DEBUG: printBuffer:5512 65 3D 22 41 43 4B 22 20 4D 65 6D 6F 72 79 4E 61 e="ACK" MemoryNa
+17:07:13: DEBUG: printBuffer:5512 6D 65 3D 22 65 4D 4D 43 22 20 4D 69 6E 56 65 72 me="eMMC" MinVer
+17:07:13: DEBUG: printBuffer:5512 73 69 6F 6E 53 75 70 70 6F 72 74 65 64 3D 22 31 sionSupported="1
+17:07:13: DEBUG: printBuffer:5512 22 20 56 65 72 73 69 6F 6E 3D 22 31 22 20 4D 61 " Version="1" Ma
+17:07:13: DEBUG: printBuffer:5512 78 50 61 79 6C 6F 61 64 53 69 7A 65 54 6F 54 61 xPayloadSizeToTa
+17:07:13: DEBUG: printBuffer:5512 72 67 65 74 49 6E 42 79 74 65 73 3D 22 31 30 34 rgetInBytes="104
+17:07:13: DEBUG: printBuffer:5512 38 35 37 36 22 20 4D 61 78 50 61 79 6C 6F 61 64 8576" MaxPayload
+17:07:13: DEBUG: printBuffer:5512 53 69 7A 65 54 6F 54 61 72 67 65 74 49 6E 42 79 SizeToTargetInBy
+17:07:13: DEBUG: printBuffer:5512 74 65 73 53 75 70 70 6F 72 74 65 64 3D 22 31 30 tesSupported="10
+17:07:13: DEBUG: printBuffer:5512 34 38 35 37 36 22 20 4D 61 78 58 4D 4C 53 69 7A 48576" MaxXMLSiz
+17:07:13: DEBUG: printBuffer:5512 65 49 6E 42 79 74 65 73 3D 22 34 30 39 36 22 20 eInBytes="4096" 
+17:07:13: DEBUG: printBuffer:5512 44 61 74 65 54 69 6D 65 3D 22 4D 61 79 20 32 33 DateTime="May 23
+17:07:13: DEBUG: printBuffer:5512 20 32 30 31 39 20 2D 20 31 38 3A 33 33 3A 35 35  2019 - 18:33:55
+17:07:13: DEBUG: printBuffer:5512 22 20 2F 3E 3C 2F 64 61 74 61 3E                " /></data>
+17:07:13: DEBUG: printBuffer:5525 
+
+
+17:07:13: DEBUG: XML FILE (105 bytes): CharsInBuffer=491-105=386
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Calling handler for configure" /></data>
+-------------------------------------------------------------------------------------------
+
+17:07:13: INFO: TARGET SAID: 'INFO: Calling handler for configure'
+17:07:13: DEBUG: XML FILE (106 bytes): CharsInBuffer=386-106=280
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Storage type set to value eMMC" /></data>
+-------------------------------------------------------------------------------------------
+
+17:07:13: INFO: TARGET SAID: 'INFO: Storage type set to value eMMC'
+17:07:13: DEBUG: XML FILE (280 bytes): CharsInBuffer=280-280=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" MemoryName="eMMC" MinVersionSupported="1" Version="1" MaxPayloadSizeToTargetInBytes="1048576" MaxPayloadSizeToTargetInBytesSupported="1048576" MaxXMLSizeInBytes="4096" DateTime="May 23 2019 - 18:33:55" /></data>
+-------------------------------------------------------------------------------------------
+
+17:07:13: DEBUG: Response was 'ACK'
+17:07:13: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 1048576
+17:07:13: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 1048576
+17:07:13: DEBUG: Got the ACK for the <configure>
+17:07:13: INFO: Sending <power>
+17:07:13: DEBUG: CHANNEL DATA (P0001) (H00203) (     99 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<power DelayInSeconds="10" value="reset" />
+</data>
+
+============================================================================================================
+
+17:07:13: DEBUG: CharsInBuffer=0 Trying to read from USB 8192 bytes
+17:07:13: DEBUG: CHANNEL DATA (455 bytes) <-- TARGET to HOST
+17:07:13: DEBUG: CharsInBuffer = 455
+17:07:13: DEBUG: printBuffer:5435 PRETTYPRINT Buffer is 455 bytes
+
+17:07:13: DEBUG: printBuffer:5512 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+17:07:13: DEBUG: printBuffer:5512 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+17:07:13: DEBUG: printBuffer:5512 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+17:07:13: DEBUG: printBuffer:5512 6C 6F 67 20 76 61 6C 75 65 3D 22 49 4E 46 4F 3A log value="INFO:
+17:07:13: DEBUG: printBuffer:5512 20 43 61 6C 6C 69 6E 67 20 68 61 6E 64 6C 65 72  Calling handler
+17:07:13: DEBUG: printBuffer:5512 20 66 6F 72 20 70 6F 77 65 72 22 20 2F 3E 3C 2F  for power" /></
+17:07:13: DEBUG: printBuffer:5512 64 61 74 61 3E 3C 3F 78 6D 6C 20 76 65 72 73 69 data><?xml versi
+17:07:13: DEBUG: printBuffer:5512 6F 6E 3D 22 31 2E 30 22 20 65 6E 63 6F 64 69 6E on="1.0" encodin
+17:07:13: DEBUG: printBuffer:5512 67 3D 22 55 54 46 2D 38 22 20 3F 3E 0A 3C 64 61 g="UTF-8" ?>.<da
+17:07:13: DEBUG: printBuffer:5512 74 61 3E 0A 3C 72 65 73 70 6F 6E 73 65 20 76 61 ta>.<response va
+17:07:13: DEBUG: printBuffer:5512 6C 75 65 3D 22 41 43 4B 22 20 72 61 77 6D 6F 64 lue="ACK" rawmod
+17:07:13: DEBUG: printBuffer:5512 65 3D 22 66 61 6C 73 65 22 20 2F 3E 3C 2F 64 61 e="false" /></da
+17:07:13: DEBUG: printBuffer:5512 74 61 3E 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E ta><?xml version
+17:07:13: DEBUG: printBuffer:5512 3D 22 31 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D ="1.0" encoding=
+17:07:13: DEBUG: printBuffer:5512 22 55 54 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 "UTF-8" ?>.<data
+17:07:13: DEBUG: printBuffer:5512 3E 0A 3C 6C 6F 67 20 76 61 6C 75 65 3D 22 49 4E >.<log value="IN
+17:07:13: DEBUG: printBuffer:5512 46 4F 3A 20 57 69 6C 6C 20 69 73 73 75 65 20 72 FO: Will issue r
+17:07:13: DEBUG: printBuffer:5512 65 73 65 74 2F 70 6F 77 65 72 20 6F 66 66 20 31 eset/power off 1
+17:07:13: DEBUG: printBuffer:5512 30 30 30 30 30 30 30 20 75 73 65 63 6F 6E 64 73 0000000 useconds
+17:07:13: DEBUG: printBuffer:5512 2C 20 69 66 20 74 68 69 73 20 68 61 6E 67 73 20 , if this hangs 
+17:07:13: DEBUG: printBuffer:5512 63 68 65 63 6B 20 69 66 20 77 61 74 63 68 64 6F check if watchdo
+17:07:13: DEBUG: printBuffer:5512 67 20 69 73 20 65 6E 61 62 6C 65 64 22 20 2F 3E g is enabled" />
+17:07:13: DEBUG: printBuffer:5512 3C 2F 64 61 74 61 3E 3C 3F 78 6D 6C 20 76 65 72 </data><?xml ver
+17:07:13: DEBUG: printBuffer:5512 73 69 6F 6E 3D 22 31 2E 30 22 20 65 6E 63 6F 64 sion="1.0" encod
+17:07:13: DEBUG: printBuffer:5512 69 6E 67 3D 22 55 54 46 2D 38 22 20 3F 3E 0A 3C ing="UTF-8" ?>.<
+17:07:13: DEBUG: printBuffer:5512 64 61 74 61 3E 0A 3C 6C 6F 67 20 76 61 6C 75 65 data>.<log value
+17:07:13: DEBUG: printBuffer:5512 3D 22 49 4E 46 4F 3A 20 62 73 70 5F 74 61 72 67 ="INFO: bsp_targ
+17:07:13: DEBUG: printBuffer:5512 65 74 5F 72 65 73 65 74 28 29 20 30 22 20 2F 3E et_reset() 0" />
+17:07:13: DEBUG: printBuffer:5512 3C 2F 64 61 74 61 3E                            </data>
+17:07:13: DEBUG: printBuffer:5525 
+
+
+17:07:13: DEBUG: XML FILE (101 bytes): CharsInBuffer=455-101=354
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="INFO: Calling handler for power" /></data>
+-------------------------------------------------------------------------------------------
+
+17:07:13: INFO: TARGET SAID: 'INFO: Calling handler for power'
+17:07:13: DEBUG: XML FILE (94 bytes): CharsInBuffer=354-94=260
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" rawmode="false" /></data>
+-------------------------------------------------------------------------------------------
+
+17:07:13: DEBUG: Response was 'ACK'
+17:07:13: DEBUG: Got the ACK
+17:07:13: INFO: ==============================================================
+17:07:13: INFO: Files used and their paths
+17:07:13: INFO:   1 'C:\Users\suhan\Downloads\MZLOCK.zipMZLOCK_2\port_trace.txt'
+17:07:13: INFO:      _             (done)
+17:07:13: INFO:     | |                 
+17:07:13: INFO:   __| | ___  _ __   ___ 
+17:07:13: INFO:  / _` |/ _ \| '_ \ / _ \
+17:07:13: INFO: | (_| | (_) | | | |  __/
+17:07:13: INFO:  \__,_|\___/|_| |_|\___|
+17:07:13: INFO: {All Finished Successfully}
+
+17:07:13: INFO: FILE ACCESS SLOW!!     0.00 B in  0.015 seconds (    0.00 Bps) --- Overall to target  0.079 seconds (0.00 Bps)
