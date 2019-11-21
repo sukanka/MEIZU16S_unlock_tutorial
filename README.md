@@ -79,6 +79,18 @@ fastboot oem lock
 * 另外, 替换官方固件中的 `firmware-update` 文件也没有效果,能够启动,但是会被锁机.
 * 因此, 目前 16S 没有可以回到 `Flyme 8` 的办法!!
 
+## 文件说明
+
+| 文件或目录                                       | 说明                                                 |
+| ------------------------------------------------ | ---------------------------------------------------- |
+| README.md                                        | 本文件                                               |
+| 1. Start Here.cmd                                | 一个在刷入 TWRP 阶段使用的脚本                       |
+| LICENSE                                          | MIT 许可证                                           |
+| recovery-TWRP-3.3.1-1106-MEIZU16S-CN-wzsx150.img | 魅族 16S 的 TWRP                                     |
+| MZLOCK                                           | 魅族 16S 的解锁工具                                  |
+| platform-tools                                   | 谷歌的 Adb/Fastboot 工具箱                           |
+| example-unlock-files                             | 热心网友提供的自己的解锁文件, 不通用, 供学习交流使用 |
+
 ## 参考资料
 
 * [ Flyme8内测版食用方法](https://www.coolapk.com/feed/14944888?shareKey=MjEwMTU4ODcyZjJlNWRkNGU3Nzc~&shareUid=512709&shareFrom=com.coolapk.market_9.6.3)
@@ -87,7 +99,7 @@ fastboot oem lock
 
 ## 写在最后
 
-欢迎各位解锁的小伙伴分享你为了上 `Flyme 8` 所做的尝试或是其他在解锁过程中发现的有用的经验, 我会总结出来放到结论里面.
+欢迎各位解锁的小伙伴分享你为了上 `Flyme 8` 所做的尝试或是其他在解锁过程中发现的有用的经验, 请提 Issue, 我会总结出来放到结论里面. 也欢迎各位小伙伴分享你自己的解锁文件.
 
 下面是网络要饭环节：如果您喜欢我所作的工作, 可以考虑捐赠我, 我的支付宝账号是 975853527@qq.com. 您的任何捐赠都会使我的情况变得更好.
 
