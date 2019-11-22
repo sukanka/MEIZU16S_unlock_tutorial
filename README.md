@@ -18,6 +18,18 @@
 * `Fastboot` : 按住电源键和音量下, 重启振动后立即放开电源键, 继续按住音量下
 * 9008 : 连上电脑, 按住电源键和音量上和音量下, 重启振动后立即放开电源键, 继续按住音量上和音量下.
 
+### 建议与网络文件
+
+建议在解锁前准备好相应机型的救砖包,以免变砖救不回.
+
+现将本篇文章涉及到的网络文件整理如下:
+
+* [**魅族 16s 降级教程**](https://pan.baidu.com/s/1Ar3xfJurnU8oQDfs4kD-KA), **提取码：8ato**
+* MEIZU 16S 的 [TWRP](https://pan.baidu.com/s/1As7Qo92pheuwEZTARUMCeQ),  提取码: 2333 
+* 16s, 16th, 16th Plus 的[线刷包](https://pan.baidu.com/s/1vaLHIR8GaqaJ1AsqKrTjOQ) 提取码:b5nh.
+
+
+
 ## 前期准备
 
 ### Android 工具箱
@@ -26,23 +38,23 @@
 
 ### 解锁教程
 
-感谢 @WHALE52 转载的[解锁教程](https://www.coolapk.com/feed/14942258?shareKey=ZGNhNThhZTM5Mzk2NWRkMzYyMDA~&shareUid=453578&shareFrom=com.coolapk.market_9.6.3), 不过他提供的工具包里面的 `prog_firehose_ddr.elf` 文件有误，是 16th 的不是 16S 的， 您可以使用我提供的[压缩包](https://pan.baidu.com/s/1Ar3xfJurnU8oQDfs4kD-KA), **提取码：8ato**，也可以自行提取降级教程中的包的 `prog_firehose_ddr.elf` 文件用于替换 @WHALE52 提供的文件。
+感谢 @WHALE52 转载的[解锁教程](https://www.coolapk.com/feed/14942258?shareKey=ZGNhNThhZTM5Mzk2NWRkMzYyMDA~&shareUid=453578&shareFrom=com.coolapk.market_9.6.3), 不过他提供的工具包里面的 `prog_firehose_ddr.elf` 文件有误，是 16th 的不是 16S 的， 您可以使用我提供的[压缩包](https://pan.baidu.com/s/1Ar3xfJurnU8oQDfs4kD-KA), **提取码：8ato**，也可以自行提取降级教程中线刷包的 `prog_firehose_ddr.elf` 文件用于替换 @WHALE52 提供的文件。 
 
 **PS**: 目前MEIZU所有机型解锁都是**免费**的，不过这可能会需要 **10-40 天**的等待， 因为等待解锁的人数众多，如果您需要立即解锁，您可以向提供解锁文件的人捐赠**至少5美元**，然后给他发邮件，邮件主题是你的手机型号，正文中包含你的捐赠的截图或交易号，附件提供你的 `port_trace.txt` 然后他会在**3小时**内将你的文件发给你。
 
-**注:** 现在可以使用 `generate-port_trace.bat` 来生成 `port_trace.txt`, 使用 `unlock.bat` 来解锁.
+**注:** 现在可以使用 `bat files` 文件夹下的`generate-port_trace.bat` 来生成 `port_trace.txt`, 使用 `unlock.bat` 来解锁.
 
 具体做法: 将他们放到 `MZLOCK` 文件夹下,然后双击`generate-port_trace.bat` 根据提示生成 `port_trace.txt`, 获取到你的 `BL.bin` 和 `unlock.bin` 之后,将这两个文件也放到 `MZLOCK`文件夹下, 再双击 `unlock.bat` 根据提示输入解锁.
 
 ### 刷入TWRP教程
 
-解锁后就可以刷入 TWRP 了。感谢**魅族16S交流群** 提供的**魅族 16s 降级教程** 使用 [@wzsx150](https://weibo.com/u/6033736159) 制作的最新的MEIZU 16S 的 [TWRP](https://pan.baidu.com/s/1As7Qo92pheuwEZTARUMCeQ),  提取码: 2333 ,想要获取最新的 TWRP 可以关注作者的微博.
+解锁后就可以刷入 TWRP 了。使用 [@wzsx150](https://weibo.com/u/6033736159) 制作的最新的MEIZU 16S 的 [TWRP](https://pan.baidu.com/s/1As7Qo92pheuwEZTARUMCeQ),  提取码: 2333 ,想要获取最新的 TWRP 可以关注作者的微博.
 
 **注意**：第一次进入TWRP可能会触屏无法使用，请准备OTG鼠标！！！
 
 下面提供**两种刷入 TWRP 的方式**， 
 
-* 一是直接刷入，手机重启进入 `FASTBOOT` 模式， 连上电脑，将 `1. Start Here.cmd` 复制到 `platform-tools` 文件夹，双击 `1. Start Here.cmd`, 然后输入
+* 一是直接刷入，手机重启进入 `FASTBOOT` 模式， 连上电脑，将`bat files` 下的 `1. Start Here.cmd` 复制到 `platform-tools` 文件夹，双击 `1. Start Here.cmd`, 然后输入
 
 
 ```
@@ -104,8 +116,8 @@ fastboot oem lock
 | MZLOCK                                           | 魅族 16S 的解锁工具                                  |
 | platform-tools                                   | 谷歌的 Adb/Fastboot 工具箱                           |
 | example-unlock-files                             | 热心网友提供的自己的解锁文件, 不通用, 供学习交流使用 |
-| generate-port_trace.bat                          | 生成 `port_trace.txt` 的脚本                         |
-| unlock.bat                                       | 用来解锁的脚本                                       |
+| bat files                                        | 存放bat 脚本的文件夹                                 |
+| elf files                                        | 存放各个机型的`prog_firehose_ddr.elf` 文件           |
 
 ## 参考资料
 
