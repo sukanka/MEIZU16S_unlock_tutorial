@@ -28,7 +28,11 @@
 
 感谢 @WHALE52 转载的[解锁教程](https://www.coolapk.com/feed/14942258?shareKey=ZGNhNThhZTM5Mzk2NWRkMzYyMDA~&shareUid=453578&shareFrom=com.coolapk.market_9.6.3), 不过他提供的工具包里面的 `prog_firehose_ddr.elf` 文件有误，是 16th 的不是 16S 的， 您可以使用我提供的[压缩包](https://pan.baidu.com/s/1Ar3xfJurnU8oQDfs4kD-KA), **提取码：8ato**，也可以自行提取降级教程中的包的 `prog_firehose_ddr.elf` 文件用于替换 @WHALE52 提供的文件。
 
-**PS**: 目前MEIZU所有机型解锁都是**免费**的，不过这可能会需要 **10-40 天**的等待， 因为等待解锁的人数众多，如果您需要立即解锁，您可以向提供解锁文件的人捐赠**至少5美元**，然后给他发邮件，邮件主题是你的手机型号，正文中包含你的捐赠的截图或交易号，附件提供你的 `trace.txt` 然后他会在**3小时**内将你的文件发给你。
+**PS**: 目前MEIZU所有机型解锁都是**免费**的，不过这可能会需要 **10-40 天**的等待， 因为等待解锁的人数众多，如果您需要立即解锁，您可以向提供解锁文件的人捐赠**至少5美元**，然后给他发邮件，邮件主题是你的手机型号，正文中包含你的捐赠的截图或交易号，附件提供你的 `port_trace.txt` 然后他会在**3小时**内将你的文件发给你。
+
+**注:** 现在可以使用 `generate-port_trace.bat` 来生成 `port_trace.txt`, 使用 `unlock.bat` 来解锁.
+
+具体做法: 将他们放到 `MZLOCK` 文件夹下,然后双击`generate-port_trace.bat` 根据提示生成 `port_trace.txt`, 获取到你的 `BL.bin` 和 `unlock.bin` 之后,将这两个文件也放到 `MZLOCK`文件夹下, 再双击 `unlock.bat` 根据提示输入解锁.
 
 ### 刷入TWRP教程
 
@@ -100,6 +104,8 @@ fastboot oem lock
 | MZLOCK                                           | 魅族 16S 的解锁工具                                  |
 | platform-tools                                   | 谷歌的 Adb/Fastboot 工具箱                           |
 | example-unlock-files                             | 热心网友提供的自己的解锁文件, 不通用, 供学习交流使用 |
+| generate-port_trace.bat                          | 生成 `port_trace.txt` 的脚本                         |
+| unlock.bat                                       | 用来解锁的脚本                                       |
 
 ## 参考资料
 
