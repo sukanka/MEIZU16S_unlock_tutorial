@@ -27,8 +27,7 @@
 * [**魅族 16s 降级教程**](https://pan.baidu.com/s/1Ar3xfJurnU8oQDfs4kD-KA), **提取码：8ato**
 * MEIZU 16S 的 [TWRP](https://pan.baidu.com/s/1As7Qo92pheuwEZTARUMCeQ),  提取码: 2333 
 * 16s, 16th, 16th Plus 的[线刷包](https://pan.baidu.com/s/1vaLHIR8GaqaJ1AsqKrTjOQ) 提取码:b5nh. (@最飘得手机)
-
-
+* 16x 的[线刷包](https://pan.baidu.com/s/1IrEtLLyB-6qlKRw6BEoAmQ), 提取码:uu15 (@Xiaolock)
 
 ## 前期准备
 
@@ -40,7 +39,7 @@
 
 感谢 @WHALE52 转载的[解锁教程](https://www.coolapk.com/feed/14942258?shareKey=ZGNhNThhZTM5Mzk2NWRkMzYyMDA~&shareUid=453578&shareFrom=com.coolapk.market_9.6.3), 不过他提供的工具包里面的 `prog_firehose_ddr.elf` 文件有误，是 16th 的不是 16S 的， 您可以使用我提供的[压缩包](https://pan.baidu.com/s/1Ar3xfJurnU8oQDfs4kD-KA), **提取码：8ato**，也可以自行提取降级教程中线刷包的 `prog_firehose_ddr.elf` 文件用于替换 @WHALE52 提供的文件。 另外 16S Pro 可以直接使用16s 的 `prog_firehose_ddr.elf`文件 (@ilvmoo).
 
-**PS**: 目前MEIZU所有机型解锁都是**免费**的，不过这可能会需要 **10-40 天**的等待， 因为等待解锁的人数众多，如果您需要立即解锁，您可以向提供解锁文件的人捐赠**至少5美元**，然后给他发邮件，邮件主题是你的手机型号，正文中包含你的捐赠的截图或交易号，附件提供你的 `port_trace.txt` 然后他会在**3小时**内将你的文件发给你。
+**PS**: 目前MEIZU所有机型解锁都是**免费**的，不过这可能会需要 **10-40 天**的等待， 因为等待解锁的人数众多，如果您需要立即解锁，您可以向提供解锁文件的人捐赠**至少5美元**，然后给他发邮件，邮件主题是**DONATE**，正文中包含你的捐赠的截图或交易号，附件提供你的 `port_trace.txt` 然后他会在**3小时**内将你的文件发给你。
 
 **注:** 现在可以使用 `bat files` 文件夹下的`generate-port_trace.bat` 来生成 `port_trace.txt`, 使用 `unlock.bat` 来解锁.
 
