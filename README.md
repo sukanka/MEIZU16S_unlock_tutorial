@@ -93,6 +93,8 @@ Finish Download
 
 ## 结论
 
+16s pro 的flyme 8 解锁后一切正常, 以下关于flyme 的结论大多是关于16s 的
+
 * 解锁教程中，尽量保证你的系统版本在11月6日之前，推荐之前的正式版和10月的体验版。
 * 已经解锁后请不要再刷回 11月6日以后的 Flyme, 否则必定进入丢失模式，并且之后只要再刷 Flyme 8 就会进入丢失模式，而且输入正确的密码无反应，输入错误的密码会显示密码错误。友情提示：不要有幻想，亲测[ Flyme8内测版食用方法](https://www.coolapk.com/feed/14944888?shareKey=MjEwMTU4ODcyZjJlNWRkNGU3Nzc~&shareUid=512709&shareFrom=com.coolapk.market_9.6.3)无效
 * 已经解锁之后，在 `FASTBOOT` 界面连接电脑，打开 `CMD` 或者 `Powershell` 输入（如果你将 Android 工具箱加入了系统路径， 可以在任意地方打开命令行， 如果没有， 请在 `Platform-tools` 的文件夹下打开）
@@ -105,9 +107,10 @@ fastboot oem lock
 
 * 刷入官方ROM回锁之后, 重启会在准备中那里等很久, 然后直接进入 `Recovery` 模式，在这里按5下音量上,5下音量下, 选择清除数据能够成功开机, **不会被锁机**.
 * 另外, 替换官方固件中的 `firmware-update` 文件也没有效果,能够启动,但是会被锁机.
-* 回锁后直接刷 Flyme8, 有人成功开机,但仍被锁(@彩虹糖)
+* 回锁之后,在官方Recovery 使用5次音量上,5次音量下的方式清除一次数据能够回到Flyme 8,并且一切正常
 * 关于格式化 `System`, 经测试, 格式化之后无法进入 `Recovery`, 但是可以进入 `Fastboot`.(@彩虹糖)
 * 降级之后不要立即刷TWRP, 会无法触屏, 应先用5次音量上、5次音量下清除一次数据，进入系统之后再刷twrp,此时触屏无问题
+* 16s 可以刷入Flyme 8 后 删除`/system_root/system/app/MzPhoneLocationService` 文件夹和  `/system_root/system/priv-app/SystemUI` , 之后能够进入系统,但是无法使用状态栏、mback，多任务以及其他部分功能。
 
 ## 文件说明
 
