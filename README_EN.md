@@ -13,11 +13,12 @@ Not sure about what to say. I will display the core steps below:
 
 ## Some helpful files
 
-* **Downgrade package**: You can use this to save your phone from becoming bricks or downgrade your rom to previous version. 
+* **Downgrade package**: You can use this to save your phone from becoming bricks or downgrade your rom to previous version. **ALL these roms are Chinese Version!**
   * For 16th, 16th Plus, and 16s [Available on BaiduNetDisk](https://pan.baidu.com/s/1vaLHIR8GaqaJ1AsqKrTjOQ), password:b5nh. (thanks to @最飘得手机). 
   * For 16x, also [available on BaiduNetDisk](https://pan.baidu.com/s/1IrEtLLyB-6qlKRw6BEoAmQ), password:uu15 (thanks to@Xiaolock) 
-  * Not available for other models now.
-
+  * For 16s Pro, [available on TianYiNetDisk](https://cloud.189.cn/t/7RRbmyQF326n) ,  password: 0194  ( thanks to @因为我高冷)
+* Not available for other models now.
+  
 * **TWRP files**: Available for 16th, 16th Plus, 16s. I will post it on github.
 
 ## Guide to unlock your phone
