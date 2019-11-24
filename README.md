@@ -29,9 +29,9 @@
 
 * [**魅族 16s 降级教程**](https://pan.baidu.com/s/1Ar3xfJurnU8oQDfs4kD-KA), **提取码：8ato**
 * MEIZU 16S 的 [TWRP](https://pan.baidu.com/s/1As7Qo92pheuwEZTARUMCeQ),  提取码: 2333 
-* 16s, 16th, 16th Plus 的[线刷包](https://pan.baidu.com/s/1vaLHIR8GaqaJ1AsqKrTjOQ) 提取码:b5nh. (@最飘得手机)
-* 16x 的[线刷包](https://pan.baidu.com/s/1IrEtLLyB-6qlKRw6BEoAmQ), 提取码:uu15 (@Xiaolock)
-* 16s Pro 的[线刷包](https://cloud.189.cn/t/7RRbmyQF326n) ,  (访问码：0194)  (@因为我高冷)
+* 16s, 16th, 16th Plus 的百度云[线刷包](https://pan.baidu.com/s/1vaLHIR8GaqaJ1AsqKrTjOQ) 提取码:b5nh. (@最飘得手机)
+* 16x 的百度云[线刷包](https://pan.baidu.com/s/1IrEtLLyB-6qlKRw6BEoAmQ), 提取码:uu15 (@Xiaolock)
+* 16s, 16s Pro 的天翼云[线刷包](https://cloud.189.cn/t/MvYNVbjyY77f) ,  (访问码:3989)  (@因为我高冷)
 
 ## 前期准备
 
