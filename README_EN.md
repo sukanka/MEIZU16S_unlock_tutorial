@@ -49,6 +49,8 @@ Here are the steps:
 
 Tutorial not available in English here, only downgrade packages available. I will appreciate it if someone wants to provide it in English.
 
+But the latest QPST can be found [HERE](https://mirrors.lolinet.com/software/windows/Qualcomm/QPST/)
+
 ## Guide to flash TWRP
 
 You can find TWRP for MEIZU 16 Series at  https://weibo.com/u/6033736159 , Chines and English are supported in these TWRP.

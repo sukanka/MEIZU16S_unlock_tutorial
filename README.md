@@ -80,7 +80,7 @@ fastboot flash recovery $YourPath/YourRecovery.img
 
 ## 解锁教程和降级教程一些常见问题的解决办法
 
-降级教程参见 **魅族16S交流群** 提供的[**魅族 16s 降级教程**](https://pan.baidu.com/s/1Ar3xfJurnU8oQDfs4kD-KA), **提取码：8ato**
+降级教程参见 **魅族16S交流群** 提供的[**魅族 16s 降级教程**](https://pan.baidu.com/s/1Ar3xfJurnU8oQDfs4kD-KA), **提取码：8ato**, 最新的QPST 可以在[这里](https://mirrors.lolinet.com/software/windows/Qualcomm/QPST/ )找到.
 
 如果出现以下的降级失败情况,请将手机拔下, 连上电源, 然后重启进入 `FASTBOOT` 模式, 再拔下电源, 以 9008 模式连接电脑进行降级即可. 
 
@@ -92,7 +92,9 @@ Download Fail:Sahara Fail:QSaharaServer Fail:Process fail
 Finish Download
 ```
 
+最近修改了 @香槟 的降级教程，暂时没有图片，等几天七牛云的实名认证过了可以增加图片。
 
+教程见[线刷教程](https://github.com/sukanka/MEIZU16S_unlock_tutorial/blob/master/救砖教程.md )
 
 ## 结论
 
