@@ -94,7 +94,7 @@ Finish Download
 
 最近修改了 @香槟 的降级教程，暂时没有图片，等几天七牛云的实名认证过了可以增加图片。
 
-教程见[线刷教程](https://github.com/sukanka/MEIZU16S_unlock_tutorial/blob/master/救砖教程.md )
+教程见[线刷教程](https://github.com/sukanka/MEIZU16S_unlock_tutorial/blob/master/线刷教程.md)
 
 ## 结论
 
