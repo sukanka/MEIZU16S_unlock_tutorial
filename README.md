@@ -119,19 +119,16 @@ fastboot oem lock
 * 降级之后不要立即刷TWRP, 会无法触屏, 应先用5次音量上、5次音量下清除一次数据，进入系统之后再刷twrp,此时触屏无问题
 * 16s 可以刷入Flyme 8 后 删除`/system_root/system/app/MzPhoneLocationService` 文件夹和  `/system_root/system/priv-app/SystemUI` , 之后能够进入系统,但是无法使用状态栏、mback，多任务以及其他部分功能。
 
-## 文件说明
+## 部分文件说明
 
-| 文件或目录                                       | 说明                                                 |
-| ------------------------------------------------ | ---------------------------------------------------- |
-| README.md                                        | 本文件                                               |
-| 1. Start Here.cmd                                | 一个在刷入 TWRP 阶段使用的脚本                       |
-| LICENSE                                          | MIT 许可证                                           |
-| recovery-TWRP-3.3.1-1106-MEIZU16S-CN-wzsx150.img | 魅族 16S 的 TWRP                                     |
-| MZLOCK                                           | 魅族 16S 的解锁工具                                  |
-| platform-tools                                   | 谷歌的 Adb/Fastboot 工具箱                           |
-| example-unlock-files                             | 热心网友提供的自己的解锁文件, 不通用, 供学习交流使用 |
-| bat files                                        | 存放bat 脚本的文件夹                                 |
-| elf files                                        | 存放各个机型的`prog_firehose_ddr.elf` 文件           |
+| 文件或目录           | 说明                                                 |
+| -------------------- | ---------------------------------------------------- |
+| MZLOCK               | 魅族 16S 的解锁工具                                  |
+| platform-tools       | 谷歌的 Adb/Fastboot 工具箱                           |
+| example-unlock-files | 热心网友提供的自己的解锁文件, 不通用, 供学习交流使用 |
+| bat files            | 存放bat 脚本的文件夹                                 |
+| elf files            | 存放各个机型的`prog_firehose_ddr.elf` 文件           |
+| meizublunlock.zip    | 另一种解锁方法的工具包.                              |
 
 ## 参考资料
 
