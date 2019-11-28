@@ -10,7 +10,7 @@
 
 
 
-**注: 现在有了更新的解锁教程, 16X 也适用, 不久后本教程会更新为那个版本. 新教程见[这里](https://github.com/sukanka/MEIZU16S_unlock_tutorial/blob/master/16x 解锁教程.pdf)**
+**注: 现在有了更新的解锁教程, 16X 也适用, 不久后本教程会更新为那个版本. 新教程见[这里](https://github.com/sukanka/MEIZU16S_unlock_tutorial/blob/master/魅族机型Fastboot解锁方法.md)**
 
 ## 引言
 
