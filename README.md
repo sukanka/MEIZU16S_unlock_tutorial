@@ -6,11 +6,9 @@
 
 **注意**: 本教程理论上也适用于其他魅族型号,如 16th, 16th Plus, 16S Pro 等, 但是本教程提供的`prog_firehose_ddr.elf` 文件是魅族 16S 的, 因此如果您使用其他机型, 您需要去找到对应机型中的线刷包, 提取出相应的 `prog_firehose_ddr.elf` 替换.
 
-**强烈建议您在开始动手之前至少看完本教程!!**
+**强烈建议您在开始动手之前至少看完本教程!! 同时建议看下 [线刷教程](https://github.com/sukanka/MEIZU16S_unlock_tutorial/blob/master/线刷教程.md)**
 
-
-
-**注: 现在有了更新的解锁教程, 16X 也适用, 不久后本教程会更新为那个版本. 新教程见[这里](https://github.com/sukanka/MEIZU16S_unlock_tutorial/blob/master/魅族机型Fastboot解锁方法.md)**
+**注: 现在有了更新的解锁教程, 16X 也适用, 不久后本教程会更新为那个版本. 新教程见[这里](https://github.com/sukanka/MEIZU16S_unlock_tutorial/blob/master/魅族机型Fastboot解锁方法.md)** ,建议16S使用新教程, 使用新教程应该可以升级Flyme 8, 其他型号随意.
 
 ## 引言
 
@@ -141,3 +139,5 @@ fastboot oem lock
 欢迎各位解锁的小伙伴分享你为了上 `Flyme 8` 所做的尝试或是其他在解锁过程中发现的有用的经验, 请提 Issue, 我会总结出来放到结论里面. 也欢迎各位小伙伴分享你自己的解锁文件.
 
 下面是云要饭环节：如果您喜欢我所作的工作, 可以考虑捐赠我, 点击[这里](https://qr.alipay.com/tsx01402sza3o66naw0o9c6)通过支付宝捐赠我，您的任何捐赠都会使我的情况变得更好.
+
+酷安用户[@法师苏沐橙](http://www.coolapk.com/u/2848078 ) 是一位ROMER, 在未来的一段时间,他将会为 16S 和16S Pro 移植和适配一些ROM, 有兴趣的酷友可以关注他。也希望大家多多捐赠他，这是他的[支付宝链接](https://qr.alipay.com/fkx07420hzy1o5wic1ero8b ),大家的支持是他继续做包的动力。
